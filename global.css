@@ -27,7 +27,7 @@ body, html
 
 #display_container
 {
-  background-image: url("https://raw.githubusercontent.com/verymanley/manleysystems.github.io/master/background01.jpg");
+  background-image: url("https://manleysystems.github.io/background01.jpg");
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -221,7 +221,7 @@ body, html
 
 #social_linkedin
 {
-  background-image: url("https://github.com/verymanley/manleysystems.github.io/blob/master/linkedin.png?raw=true");
+  background-image: url("https://manleysystems.github.io/linkedin.png");
   background-size: cover;
   position: relative;
   float: left;
@@ -236,7 +236,7 @@ body, html
 
 #social_twitter
 {
-  background-image: url("https://github.com/verymanley/manleysystems.github.io/blob/master/twitter.png?raw=true");
+  background-image: url("https://manleysystems.github.io/twitter.png");
   background-size: cover;
   position: relative;
   float: left;
@@ -251,7 +251,7 @@ body, html
 
 #social_email
 {
-  background-image: url("https://github.com/verymanley/manleysystems.github.io/blob/master/email.png?raw=true");
+  background-image: url("https://manleysystems.github.io/email.png");
   background-size: cover;
   position: relative;
   float: left;
