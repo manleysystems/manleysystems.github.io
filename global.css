@@ -113,34 +113,10 @@ body, html
   padding-left: 4px;
   border: 1px solid #009933;
   transition: .4s ease;
-  animation:animateleft .8s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
-}
-
-#nav_b
-{
-  position: relative;
-  width: 270px;
-  background-color: #282b2d;
-  margin-bottom: 2px;
-  padding-left: 4px;
-  border: 1px solid #266fd2;
-  transition: .4s ease;
   animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
 
-#nav_c
-{
-  position: relative;
-  width: 225px;
-  background-color: #282b2d;
-  margin-bottom: 2px;
-  padding-left: 4px;
-  border: 1px solid #266fd2;
-  transition: .4s ease;
-  animation:animateleft 1.2s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
-}
-
-#nav_d
+#nav_b
 {
   position: relative;
   width: 185px;
@@ -164,12 +140,12 @@ body, html
   transition: .4s ease;
 }
 
-#nav_a:hover .overlay, #nav_b:hover .overlay, #nav_c:hover .overlay, #nav_d:hover .overlay
+#nav_a:hover .overlay, #nav_b:hover .overlay
 {
   height: 100%;
 }
 
-#nav_a:hover, #nav_b:hover, #nav_c:hover #nav_d:hover
+#nav_a:hover, #nav_b:hover
 {
   border: 1px solid #163f78;
   transition: .4s ease;
@@ -190,7 +166,7 @@ body, html
 }
 
 
-#nav_a:hover .nav_txt, #nav_b:hover .nav_txt, #nav_c:hover .nav_txt, #nav_d:hover .nav_txt
+#nav_a:hover .nav_txt, #nav_b:hover .nav_txt
 {
   height: 100%;
   color: #282b2d;
