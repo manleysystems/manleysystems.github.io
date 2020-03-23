@@ -1,14 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
-*{
+* {
 padding: 0px;
 margin: 0px;
 border: 0px;
 }
 
-body, html
-{
+body, html {
   height: 100%;
   font-family: 'Geo', sans-serif;
   background-color: #282b2d;
@@ -16,8 +15,7 @@ body, html
   text-decoration: none;
 }
 
-#display_middle
-{
+#display_middle {
   position:absolute;
   top:50%;
   left:50%;
@@ -25,8 +23,7 @@ body, html
   -ms-transform:translate(-50%,-50%)
 }
 
-#display_container
-{
+#display_container {
   background-image: url("https://manleysystems.github.io/background01.jpg");
   min-height: 100%;
   background-position: center;
@@ -35,15 +32,13 @@ body, html
   animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
 }
 
-#display_topleft
-{
+#display_topleft {
   position:absolute;left:1%;top:0;
   padding:20px;
   color: #266fd2;
 }
 
-#animate_top
-{
+#animate_top {
   width: 20vw;
   font-size:64px;
   margin-bottom: 40px;
