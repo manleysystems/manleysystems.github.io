@@ -83,8 +83,7 @@ body, html {
 
 /*---------nav begin------------*/
 
-#nav_container
-{
+#nav_container {
   position: relative;
   float: left;
   height: auto;
@@ -94,8 +93,7 @@ body, html {
   color: #266fd2;
 }
 
-#nav_a
-{
+#nav_a {
   position: relative;
   width: 200px;
   background-color: #282b2d;
@@ -106,8 +104,7 @@ body, html {
   animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
 
-#nav_b
-{
+#nav_b {
   position: relative;
   width: 186px;
   background-color: #282b2d;
@@ -117,8 +114,7 @@ body, html {
   animation:animateleft 1.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
 
-.overlay
-{
+.overlay {
   position: absolute;
   bottom: 0;
   left: 0;
