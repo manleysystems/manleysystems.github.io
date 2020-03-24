@@ -48,16 +48,14 @@ body, html {
   animation:animatetop 0.8s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}
 }
 
-#border
-{
+#border {
   border-top: 1px solid #266fd2;
   border-bottom: 2px solid #282b2d;
   margin-left: 38vw;
   margin-right: 38vw;
 }
 
-#large_center
-{
+#large_center {
   text-align: center;
   font-family: 'Geo', sans-serif;
   font-size: 6vw;
@@ -67,20 +65,17 @@ body, html {
   text-shadow: 2px 2px #282b2d;
 }
 
-#display_bottomleft
-{
+#display_bottomleft {
   position:absolute;left:0;bottom:0;
   padding:12px 24px
 }
 
-#display_bottomright
-{
+#display_bottomright {
   position:absolute;right:0;bottom:0;
   padding:12px 24px
 }
 
-#links:link, :visited
-{
+#links:link, :visited {
   font-weight: bold;
   color: #266fd2;
   text-decoration: none;
