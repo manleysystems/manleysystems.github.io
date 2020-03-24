@@ -126,19 +126,16 @@ body, html {
   transition: .4s ease;
 }
 
-#nav_a:hover .overlay, #nav_b:hover .overlay
-{
+#nav_a:hover .overlay, #nav_b:hover .overlay {
   height: 100%;
 }
 
-#nav_a:hover, #nav_b:hover
-{
+#nav_a:hover, #nav_b:hover {
   border: 1px solid #163f78;
   transition: .4s ease;
 }
 
-.nav_txt
-{
+.nav_txt {
   position: relative;
   z-index: 100;
   font-size: 30px;
