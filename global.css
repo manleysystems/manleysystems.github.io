@@ -227,8 +227,7 @@ body, html {
   animation:animatetop .6s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}
 }
 
-#social_linkedin:hover, #social_email:hover, #social_twitter:hover
-{
+#social_linkedin:hover, #social_email:hover, #social_twitter:hover {
   background-color: #266fd2;
   border-color: #232729;
   transition: .2s ease;
