@@ -143,14 +143,12 @@ body, html {
   transition: .4s ease;
 }
 
-.nav_txt:link, :visited
-{
+.nav_txt:link, :visited {
   text-decoration: none;
 }
 
 
-#nav_a:hover .nav_txt, #nav_b:hover .nav_txt
-{
+#nav_a:hover .nav_txt, #nav_b:hover .nav_txt {
   height: 100%;
   color: #282b2d;
   transition: .4s ease;
@@ -160,8 +158,7 @@ body, html {
 
 /*---------design begin------------*/
 
-#design_container
-{
+#design_container {
   position: relative;
   width: auto;
   font-size: 20px;
@@ -170,8 +167,7 @@ body, html {
   animation:animateleft 1.8s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
 
-#links:link, :visited
-{
+#links:link, :visited {
   background-color: #282b2d;
   color: #266fd2;
   text-decoration: none;
@@ -179,8 +175,7 @@ body, html {
   transition: .4s ease;
 }
 
-#links:hover
-{
+#links:hover {
   background-color: #266fd2;
   color: #282b2d;
   transition: .6s ease;
