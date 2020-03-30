@@ -1,13 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
 
-* {
-padding: 0px;
-margin: 0px;
-border: 0px;
+*
+{
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
 }
 
-body, html {
+body, html
+{
   height: 100%;
   font-family: 'Geo', sans-serif;
   background-color: #282b2d;
@@ -15,7 +17,8 @@ body, html {
   text-decoration: none;
 }
 
-#display_middle {
+#display_middle
+{
   position:absolute;
   top:50%;
   left:50%;
@@ -23,7 +26,8 @@ body, html {
   -ms-transform:translate(-50%,-50%)
 }
 
-#display_container {
+#display_container
+{
   background-image: url("https://manleysystems.github.io/background01.jpg");
   min-height: 100%;
   background-position: center;
@@ -32,13 +36,15 @@ body, html {
   animation:opac 1.8s}@keyframes opac{from{opacity:0} to{opacity:1}
 }
 
-#display_topleft {
+#display_topleft
+{
   position:absolute;left:1%;top:0;
   padding:20px;
   color: #266fd2;
 }
 
-#animate_top {
+#animate_top
+{
   width: 20vw;
   font-size:64px;
   margin-bottom: 40px;
@@ -48,14 +54,16 @@ body, html {
   animation:animatetop 0.8s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}
 }
 
-#border {
+#border
+{
   border-top: 1px solid #266fd2;
   border-bottom: 2px solid #282b2d;
   margin-left: 38vw;
   margin-right: 38vw;
 }
 
-#large_center {
+#large_center
+{
   text-align: center;
   font-family: 'Geo', sans-serif;
   font-size: 6vw;
@@ -65,17 +73,20 @@ body, html {
   text-shadow: 2px 2px #282b2d;
 }
 
-#display_bottomleft {
+#display_bottomleft
+{
   position:absolute;left:0;bottom:0;
   padding:12px 24px
 }
 
-#display_bottomright {
+#display_bottomright
+{
   position:absolute;right:0;bottom:0;
   padding:12px 24px
 }
 
-#links:link, :visited {
+#links:link, :visited
+{
   font-weight: bold;
   color: #266fd2;
   text-decoration: none;
@@ -83,7 +94,8 @@ body, html {
 
 /*---------nav begin------------*/
 
-#nav_container {
+#nav_container
+{
   position: relative;
   float: left;
   height: auto;
@@ -93,7 +105,8 @@ body, html {
   color: #266fd2;
 }
 
-#nav_a {
+#nav_a
+{
   position: relative;
   width: 200px;
   background-color: #282b2d;
@@ -104,7 +117,8 @@ body, html {
   animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
 
-#nav_b {
+#nav_b
+{
   position: relative;
   width: 186px;
   background-color: #282b2d;
@@ -114,7 +128,8 @@ body, html {
   animation:animateleft 1.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
 
-.overlay {
+.overlay
+{
   position: absolute;
   bottom: 0;
   left: 0;
@@ -126,16 +141,19 @@ body, html {
   transition: .4s ease;
 }
 
-#nav_a:hover .overlay, #nav_b:hover .overlay {
+#nav_a:hover .overlay, #nav_b:hover .overlay
+{
   height: 100%;
 }
 
-#nav_a:hover, #nav_b:hover {
+#nav_a:hover, #nav_b:hover
+{
   border: 1px solid #163f78;
   transition: .4s ease;
 }
 
-.nav_txt {
+.nav_txt
+{
   position: relative;
   z-index: 100;
   font-size: 30px;
@@ -143,12 +161,14 @@ body, html {
   transition: .4s ease;
 }
 
-.nav_txt:link, :visited {
+.nav_txt:link, :visited
+{
   text-decoration: none;
 }
 
 
-#nav_a:hover .nav_txt, #nav_b:hover .nav_txt {
+#nav_a:hover .nav_txt, #nav_b:hover .nav_txt
+{
   height: 100%;
   color: #282b2d;
   transition: .4s ease;
@@ -158,7 +178,8 @@ body, html {
 
 /*---------design begin------------*/
 
-#design_container {
+#design_container
+{
   position: relative;
   width: auto;
   font-size: 20px;
@@ -167,7 +188,8 @@ body, html {
   animation:animateleft 1.8s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
 
-#links:link, :visited {
+#links:link, :visited
+{
   background-color: #282b2d;
   color: #266fd2;
   text-decoration: none;
@@ -175,7 +197,8 @@ body, html {
   transition: .4s ease;
 }
 
-#links:hover {
+#links:hover
+{
   background-color: #266fd2;
   color: #282b2d;
   transition: .6s ease;
@@ -185,7 +208,8 @@ body, html {
 
 /*---------contact begin------------*/
 
-#social_linkedin {
+#social_linkedin
+{
   background-image: url("https://manleysystems.github.io/linkedin.png");
   background-size: cover;
   position: relative;
@@ -199,7 +223,8 @@ body, html {
   animation:animatetop 1s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}
 }
 
-#social_twitter {
+#social_twitter
+{
   background-image: url("https://manleysystems.github.io/twitter.png");
   background-size: cover;
   position: relative;
@@ -213,7 +238,8 @@ body, html {
   animation:animatetop .8s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}
 }
 
-#social_email {
+#social_email
+{
   background-image: url("https://manleysystems.github.io/email.png");
   background-size: cover;
   position: relative;
@@ -227,7 +253,8 @@ body, html {
   animation:animatetop .6s}@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1}
 }
 
-#social_linkedin:hover, #social_email:hover, #social_twitter:hover {
+#social_linkedin:hover, #social_email:hover, #social_twitter:hover
+{
   background-color: #266fd2;
   border-color: #232729;
   transition: .2s ease;
