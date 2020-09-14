@@ -98,11 +98,6 @@ body, html
   {
     transform: scale(1.0);
   }
-
-  #nav_container
-  {
-    transform: scale(1.0);
-  }
 }
 
 /*---------nav begin------------*/
