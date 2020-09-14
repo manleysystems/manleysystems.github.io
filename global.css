@@ -93,13 +93,6 @@ body, html
   text-decoration: none;
 }
 
-@media screen and (max-width: 600px)
-{
-  #animate_top, #border, #large_center
-  {
-  }
-}
-
 /*---------nav begin------------*/
 
 #nav_container
