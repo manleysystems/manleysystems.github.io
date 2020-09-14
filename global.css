@@ -92,6 +92,14 @@ body, html
   text-decoration: none;
 }
 
+@media screen and (max-width: 600px)
+{
+  #animate_top, #border, #large_center
+  {
+    transform: scale(1.8);
+  }
+}
+
 /*---------nav begin------------*/
 
 #nav_container
