@@ -96,12 +96,12 @@ body, html
 {
   #animate_top, #border, #large_center
   {
-    transform: scale(1.8);
+    transform: scale(2);
   }
 
   #nav_container
   {
-    transform: scale(1.4);
+    transform: scale(1.8);
     padding-left: 10vw;
   }
 }
