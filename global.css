@@ -74,6 +74,17 @@ body, html
   text-shadow: 2px 2px #282b2d;
 }
 
+#large_center_b
+{
+  text-align: center;
+  font-family: 'Geo', sans-serif;
+  font-size: 2vw;
+  margin-top: 10px;
+  color: #266fd2;
+  text-shadow: 2px 2px #282b2d;
+}
+
+
 #display_bottomleft
 {
   position:absolute;left:0;bottom:0;
