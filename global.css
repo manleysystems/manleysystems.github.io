@@ -107,11 +107,11 @@ body, html
 #nav_a
 {
   position: relative;
-  width: 270px;
+  width: 190px;
   background-color: #282b2d;
   margin-bottom: 2px;
   padding-left: 4px;
-  border: 1px solid #266fd2;
+  border: 1px solid #f1a91f;
   transition: .4s ease;
   animation:animateleft 1s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
@@ -119,7 +119,7 @@ body, html
 #nav_b
 {
   position: relative;
-  width: 225px;
+  width: 180px;
   background-color: #282b2d;
   margin-bottom: 2px;
   padding-left: 4px;
@@ -131,10 +131,10 @@ body, html
 #nav_c
 {
   position: relative;
-  width: 185px;
+  width: 170px;
   background-color: #282b2d;
   padding-left: 4px;
-  border: 1px solid #f1a91f;
+  border: 1px solid #266fd2;
   transition: .4s ease;
   animation:animateleft 1.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}
 }
